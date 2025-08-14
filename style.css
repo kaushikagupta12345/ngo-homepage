@@ -1,0 +1,28 @@
+.hero {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1,
+.hero p {
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.card-img-top {
+ 
+  object-fit: cover;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+footer a:hover,
+#contact a:hover {
+  text-decoration: underline;
+  color: #ffc107;
+}
